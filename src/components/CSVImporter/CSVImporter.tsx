@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Upload, FileUp, Check, AlertCircle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 import CSVMapper from './CSVMapper';
 import { useCSVReader } from 'react-papaparse';
 
